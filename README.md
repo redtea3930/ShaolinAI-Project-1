@@ -84,4 +84,4 @@ We discovered multiple correlations between the data. We were unable to come up 
 2. We experienced a period of historically low interest rates. Not only did this period define the 2010's, but it also capped off a four decade decline in interest rates. It is difficult to pick a similar economic environment in the past to compare to today.
 
 **Factoring inflation into the mix complicates the pictures even more:**
-![Historical Rates, CPI, and the Fed's Balance Sheet](summaryRCF.png)
+![Historical Rates, CPI, and the Fed's Balance Sheet](SummaryRCF.png)
