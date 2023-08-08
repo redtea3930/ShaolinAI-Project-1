@@ -49,7 +49,7 @@ ________________________________________________________________________________
 ![Corporate Liquid Assets and the Fed Balance Sheet](Corporate_Liquid.png)
 4. **We found a moderate inverse correlation between Interest Rates and Real Estate:** When delayed by three years, interest rates show an inverse correlation with asset prices before the QE era (which is normal), but after after QE began the inverse correlation was suppressed.
 ![Delayed Interest Rates and Los Angeles Home Values](Rates_offset_fed.png)
-5. **The Fed and Home Prices:** We plotted average home prices in ten major cities and compared them to the fed balance sheet. Starting in 2012, home values became highly correlated with the fed balance sheet.
+5. **The Fed and Home Prices:** We plotted average home prices in ten major cities and compared them to the fed balance sheet. Starting in 2012, home values became highly correlated with the fed balance sheet. This chart is normalized, or scaled such that the y axis is equal on all plots.
 ![Normalized Home Values and the Fed](10Cities_Fed.jpg)
 ### Once we were confident that QE highly correlates with financial assets, our next question was do any aspects of a home make it correlate higher or lower with QE?
 6. **Highest and Lowest Home Prices of Six Major Cities, Plotted Against the Fed Balance Sheet:** This chart shows how some cities were more correlated to the Fed than others, especially in the top tier homes of LA, San Diego, and New York. The Great Financial Crisis occurred on the left side, when most home values experienced a blow off top. At that time we can see the market was more organic, in that the top tier homes of most cities were worth more than the bottom tier homes of most cities. Up to present day, the bottom tier homes of LA and San Diego gained more than the top tier homes of Las Vegas. For each city, Top Tier contains homes within the 65th and 95th percentile range, while Bottom Tier contains those within the 5th and 35th percentile. 
@@ -65,18 +65,23 @@ While each era shows a useful range of home value gain or loss, there is no obse
 ![Income vs Home Value & Gain by zip code, QT era](Zip_Income2022-2023.png)
 9. **Finally, we used Tableau to plot on a map the average gain or loss per county:** This also points to location being a prominent factor in home value gain.
 ![Home Value & Gain by county, Pre-GFC era](TableauPre-GFC.png)
-Again we divided the data between different eras. In each era, we have data for more and more counties.
+Again we divided the data between different eras. In each new era, we have data for more and more counties.
 ![Home Value & Gain by county, GFC era](TableauGFC.png)
-In each era there are interesting trends to speculate on.
+In each era there are interesting trends and counter trends to speculate on.
 ![Home Value & Gain by county, QE era](TableauQE.png)
 ![Home Value & Gain by county, QT era](TableauQT.png)
 __________________________________________________________________________________
 ## Conclusion
 We discovered multiple correlations between the data. We were unable to come up with a model that quantitatively predicts real estate prices on a more granular level than national, but we have multiple threads we could pull on with more time. The biggest factor appears to be location. We intended to use python to correlate home values with location but ran out of time.
+
 **While the Fed's Balance Sheet has been a strong predictor of asset prices in the past decade, that is not guaranteed to be the case in the future.**
-![Historical Rates and the Fed's Balance Sheet](SummaryRVF.png)
+
+![Historical Rates and the Fed's Balance Sheet](summaryRVF.png)
+
 **There are two unique factors about our current era:**
+
 1. Quantitative Easing as we know it didn't exist before 2008.
 2. We experienced a period of historically low interest rates. Not only did this period define the 2010's, but it also capped off a four decade decline in interest rates. It is difficult to pick a similar economic environment in the past to compare to today.
+
 **Factoring inflation into the mix complicates the pictures even more:**
-![Historical Rates, CPI, and the Fed's Balance Sheet](SummaryRCF.png)
+![Historical Rates, CPI, and the Fed's Balance Sheet](summaryRCF.png)
