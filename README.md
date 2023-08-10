@@ -63,16 +63,18 @@ Unfortunately there may be some missing data from the IRS, as there is a gap of 
 While each era shows a useful range of home value gain or loss, there is no observable correlation between average income and the gain or loss per zip code. We also tried the same plots with nominal gain instead of percentage gain with no improvement.
 ![Income vs Home Value & Gain by zip code, QE era](Zip_Income2012-2022.png)
 ![Income vs Home Value & Gain by zip code, QT era](Zip_Income2022-2023.png)
-9. **Finally, we used Tableau to plot on a map the average gain or loss per county:** This also points to location being a prominent factor in home value gain.
+9. **Then we used Tableau to plot on a map the average gain or loss per county:** This also points to location being a prominent factor in home value gain.
 ![Home Value & Gain by county, Pre-GFC era](TableauPre-GFC.png)
 Again we divided the data between different eras. In each new era, we have data for more and more counties.
 ![Home Value & Gain by county, GFC era](TableauGFC.png)
-In each era there are interesting trends and counter trends to speculate on.
+In each era there are interesting trends and countertrends to speculate on.
 ![Home Value & Gain by county, QE era](TableauQE.png)
 ![Home Value & Gain by county, QT era](TableauQT.png)
+10. **Finally, we figured out a way to plot something we really wanted to see:** Average % gain or loss by city. This Tableau dashboard shows which cities gained or lost the most value in percent, split between eras and between top tier and bottom tier homes. In a much more comprehensive way these plots depict the trends and countertrends of the US housing market in the last 20 years. Again, location is important but interestingly the bottom tier homes tend to gain more during booms and lose less during declines. [The full dashboard can be accessed with this link](https://public.tableau.com/app/profile/donny.burbank/viz/TopvsBottomCities/TopvsBottomCities?publish=yes)
+![Home Value & Gain by city example](Tableau_Cities.png)
 __________________________________________________________________________________
 ## Conclusion
-We discovered multiple correlations between the data. We were unable to come up with a model that quantitatively predicts real estate prices on a more granular level than national, but we have multiple threads we could pull on with more time. The biggest factor appears to be location. We intended to use python to correlate home values with location but ran out of time.
+We discovered multiple correlations between the data, namely the Fed's balance sheet. The biggest factors that affect which homes gain more appear to be location and starting value. We ran out of time to come up with a way to quantify how location affects prices, with more time we would pull on that thread as well as a few others.
 
 **While the Fed's Balance Sheet has been a strong predictor of asset prices in the past decade, that is not guaranteed to be the case in the future.**
 
